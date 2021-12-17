@@ -7,7 +7,7 @@ import (
 	"os"
 
 	flags "github.com/jessevdk/go-flags"
-	yamlpatch "github.com/krishicks/yaml-patch"
+	yamlpatch "github.com/ACCELERATOR-SANDBOX/yaml-patch"
 )
 
 type opts struct {
