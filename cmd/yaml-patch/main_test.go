@@ -8,7 +8,7 @@ import (
 
 var _ = Describe("yaml-patch", func() {
 	It("builds", func() {
-		_, err := gexec.Build("github.com/krishicks/yaml-patch/cmd/yaml-patch")
+		_, err := gexec.Build("github.com/ACCELERATOR-SANDBOX/yaml-patch/cmd/yaml-patch")
 		Expect(err).NotTo(HaveOccurred())
 	})
 })
